@@ -1,0 +1,51 @@
+.calculator {
+    width: 250px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ff9900;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 
+    0 0 10px rgba(0, 0, 0, 0.2), /* regular shadow */
+    inset 10px 0 20px -10px rgba(0, 0, 0, 0.5), /* left fading shadow */
+    inset -10px 0 20px -10px rgba(0, 0, 0, 0.5), /* right fading shadow */
+    inset 0 10px 20px -10px rgba(0, 0, 0, 0.5), /* top fading shadow */
+    inset 0 -10px 20px -10px rgba(0, 0, 0, 0.5); /* bottom fading shadow */}
+input[type="text"] {
+    width: 100%;
+    font-size: 50px;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+button {
+    width: 48px;
+    height: 48px;
+    font-size: 18px;
+    margin: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center center;
+    background-color: rgb(41, 39, 39);
+box-shadow: gray 20px;
+}
+
+#myElement {
+   
+    padding: 20px;
+  
+
+}
